@@ -7,6 +7,10 @@ Reads _"maintainability"_ threshold from _.complexityrc_, runs `grunt-complexity
 [dm_svg]: https://david-dm.org/davidlinse/grunt-complexity-updater.svg
 [dm_url]: https://david-dm.org/davidlinse/grunt-complexity-updater
 
+_Note:_ It's assumed that you're already using the [_grunt-complexity_][grunt_complexity] module so it's **not** included as dependency.
+
+[grunt_complexity]: https://github.com/vigetlabs/grunt-complexity
+
 #### Usage
 ```
 $ npm install grunt-complexity-updater
@@ -65,4 +69,3 @@ THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 THEWARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
