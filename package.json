@@ -1,0 +1,25 @@
+{
+  "name": "grunt-complexity-updater",
+  "version": "0.1.0",
+  "description": "Reads and auto-updates maintainability values from grunt-complexity in .complexityrc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidlinse/grunt-complexity-updater.git"
+  },
+  "keywords": [
+    "grunt-complexity",
+    "threshold",
+    "maintainability",
+    "complexity"
+  ],
+  "author": "David Linse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidlinse/grunt-complexity-updater/issues"
+  },
+  "homepage": "https://github.com/davidlinse/grunt-complexity-updater"
+}
