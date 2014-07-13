@@ -34,7 +34,7 @@ grunt.registerTask('test', ['update-grunt-complexity-values'])
 ```
 
 Create a `.complexityrc` file and make it look like:
-```json
+```js
 {
   "maintainability":      1,      // initial value, will be updated on next run
   "broadcast":            true,   // make grunt-complexity broadcasting data
@@ -45,7 +45,7 @@ Create a `.complexityrc` file and make it look like:
   "errorsOnly":           true|false,
   "cyclomatic":           0,
   "halstead":             0,
-  "hideComplexFunctions": false,
+  "hideComplexFunctions": false
 }
 ```
 You're done. Now run `$ grunt update-grunt-complexity-values`.
